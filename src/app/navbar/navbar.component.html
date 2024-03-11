@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+    <span routerLink="/home">Santander</span>
+    <span class="example-spacer"></span>
+    <button *ngIf="!getLoggedFirstName()" routerLink="/sign-up" mat-flat-button color="primary" class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      Registrarse
+    </button>
+    <button *ngIf="!getLoggedFirstName()" routerLink="/log-in" mat-flat-button color="accent" class="example-icon" aria-label="Example icon-button with share icon">Iniciar sesión</button>
+    <button *ngIf="isAdmin && getLoggedFirstName()"  mat-button routerLink="users" routerLink="/list-places">Administración de lugares</button>
+    <button *ngIf="getLoggedFirstName()" mat-flat-button color="accent" class="menuButton" (click)="logout()">Salir ({{ nombre }})</button>
+  </mat-toolbar>

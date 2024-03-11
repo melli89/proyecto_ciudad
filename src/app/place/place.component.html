@@ -1,0 +1,34 @@
+<section *ngIf="sitios_info">
+    <h1>{{sitios_info.nombre}} <mat-icon *ngIf="sitios_info.puntuacion=='NV'" class="grey">star</mat-icon><mat-icon *ngIf="sitios_info.puntuacion!='NV'" class="yellow">star</mat-icon>{{sitios_info.puntuacion}}</h1>
+    <p id="descripcion">{{sitios_info.descripcion}}</p>
+    <div id="images">
+        <img id="main_image" mat-card-image src="{{sitios_info.imagen[0]}}" alt="Foto">
+        <div id="images_list">
+            <img *ngFor="let sitio of sitios_info.imagen" class="foto" mat-card-image src="{{sitio}}" alt="Foto" (click)="zoom(sitio)">
+        </div>
+    </div>
+    <h3>Opiniones</h3>
+    <div  *ngIf="login &&!isAdmin && puedeValorar">
+        <form id="cuadroComentario" [formGroup]="commentForm" class="example-form" (ngSubmit)="submitCommentForm()">
+            <mat-form-field appearance="outline">
+                <mat-label>Puntuación</mat-label>
+                <mat-select formControlName="puntuacion">
+                    <mat-option *ngFor="let puntuacion of puntuaciones" [value]="puntuacion">{{puntuacion}}</mat-option>
+                </mat-select>
+                <mat-error *ngIf="commentForm.get('puntuation')?.hasError('required')">Debes seleccionar una puntuación</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Comentario</mat-label>
+                <textarea matInput formControlName="textArea"></textarea>
+                <mat-error *ngIf="commentForm.get('textArea')?.hasError('required')">Debes introducir un comentario</mat-error>
+            </mat-form-field>
+            <button mat-button type="submit" color="primary">Comentar</button>
+        </form>
+    </div>
+    <div id="comentarios">
+        <div class="comentario" *ngFor="let comentario of list_comments">
+            <h4>{{comentario.nombre}} {{comentario.apellidos}}</h4>
+            <p>{{comentario.comentario}}</p>
+        </div>
+    </div>
+</section>

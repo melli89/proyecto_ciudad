@@ -1,0 +1,41 @@
+.content{
+    padding-top: 10px;
+}
+
+.row{
+    display:flex;
+    gap: 10px;
+}
+
+mat-form-field{
+    width: 100%;
+} 
+
+mat-error{
+    margin-left: -19px;
+}
+
+.action{
+    padding: 0px 25px 20px;
+}
+
+button{
+    flex:1;
+}
+
+section.form {
+    width: 100%;
+    margin: 5em 0;
+}
+
+form {
+    width: 60%;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+<section class="form">
+  <h1>Registrarse</h1>
+  <form [formGroup]="regForm" class="example-form" (ngSubmit)="submitRegForm()">
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Indique su nombre</mat-label>
+        <input matInput placeholder="Nombre" formControlName="firstName">
+        <mat-error *ngIf="regForm.get('firstName')?.hasError('required')">
+            Debe indicar el nombre
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Indique su apellido</mat-label>
+        <input matInput placeholder="Apellidos" formControlName="lastName">
+        <mat-error *ngIf="regForm.get('lastName')?.hasError('required')">
+            Debe indicar los apellidos
+        </mat-error>
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <section class="example-section">
+        <label class="example-margin">Género:</label>
+        <mat-radio-group formControlName="genre">
+          <mat-radio-button class="example-margin" value="masculino">Masculino</mat-radio-button>
+          <mat-radio-button class="example-margin" value="femenino">Femenino</mat-radio-button>
+          <mat-radio-button class="example-margin" value="otros">Otros</mat-radio-button>
+        </mat-radio-group>
+      </section>
+    </div>
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Fecha nacimiento</mat-label>                
+        <input formControlName="birthday" matInput [matDatepicker]="birthdayDatePicker">
+        <mat-datepicker-toggle matSuffix [for]="birthdayDatePicker"></mat-datepicker-toggle>
+        <mat-datepicker #birthdayDatePicker></mat-datepicker>
+      </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Región</mat-label>
+          <mat-select formControlName="autonomous_region">
+              <mat-option *ngFor="let region of autonomous_regions_list" [value]="region">{{region}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Indique su teléfono</mat-label>
+        <input matInput placeholder="Telefono" formControlName="phone">
+        <mat-error *ngIf="regForm.get('phone')?.hasError('required')">
+            Debe indicar un teléfono
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input type="email" matInput formControlName="email" placeholder="Ex. pat@example.com">
+          <mat-error *ngIf="regForm.hasError('email') && !regForm.hasError('required')">Please enter a valid email address</mat-error>
+          <mat-error *ngIf="regForm.hasError('required')">Email is <strong>required</strong></mat-error>
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field class="define_width" appearance="outline">
+        <mat-label>Contraseña</mat-label>
+        <input matInput autocomplete="off" type="password" formControlName="password">
+    </mat-form-field>
+    <mat-form-field class="define_width" appearance="outline">
+      <mat-label>Contraseña</mat-label>
+      <input matInput autocomplete="off" type="password" formControlName="password2">
+  </mat-form-field>  
+    </div>
+    <br>
+    <button mat-button type="submit" color="primary">Registrarse</button>
+  </form>
+</section>

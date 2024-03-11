@@ -1,0 +1,25 @@
+<h1 class="body">Santander</h1>
+<p class="body">Santander es una ciudad situada en el norte de España, capital de la comunidad autónoma uniprovincial de Cantabria. Con 172 726 habitantes (2023),6​ es el municipio más poblado de la comunidad autónoma. Es cabecera del área metropolitana de Santander, una conurbación de más de 300 000 habitantes que se extiende alrededor de la bahía de Santander. El término municipal limita al norte con el mar Cantábrico, al este con la bahía homónima, que lo rodea también por el sur junto al municipio de Camargo y al oeste limita con el municipio de Santa Cruz de Bezana. Su cota máxima, situada en Peñacastillo, se eleva 139 m sobre el nivel de mar.</p>
+<section id="lugares" class="body">
+    <mat-card *ngFor="let sitio of sitios_info" class="example-card">
+        <div class="header_section" aria-roledescription="places_sections_header">
+          <mat-card-title class="titulo">{{sitio.nombre}}</mat-card-title>
+          <div class="puntuacion">
+            <mat-icon *ngIf="sitio.puntuacion=='NV'" class="grey" >star</mat-icon><mat-icon *ngIf="sitio.puntuacion!='NV'" class="yellow">star</mat-icon>
+            <p>{{sitio.puntuacion}}</p>
+          </div>
+        </div>
+        <img mat-card-image src="{{sitio.imagen[0]}}" alt="Foto_catedral">
+        <mat-card-content>
+          <p *ngIf="sitio.descripcion.split(' ').length >= 50">
+              {{sitio.descripcion.split(' ').splice(0,50).join(' ')}}...
+          </p>
+          <p *ngIf="sitio.descripcion.split(' ').length < 50">
+            {{sitio.descripcion}}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <a href="/place/{{sitio.id}}">Leer más...</a>
+        </mat-card-actions>
+      </mat-card>
+</section>

@@ -1,0 +1,45 @@
+<h2 mat-dialog-title>Editar lugar</h2>
+<form [formGroup]="regForm" (ngSubmit)="submitRegForm()">
+    <mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Nombre lugar</mat-label>
+                <input matInput placeholder="Nombre lugar" formControlName="nombre">
+                <mat-error *ngIf="regForm.get('nombre')?.hasError('required')">
+                    Debe indicar el nombre del lugar
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Descripción</mat-label>
+                <input matInput placeholder="Descripción" formControlName="descripcion">
+                <mat-error *ngIf="regForm.get('descripcion')?.hasError('required')">
+                    Debe indicar la descripción del lugar
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline" class="example-full-width">
+                <mat-label>Puntuación</mat-label>
+                <input type="text" matInput  formControlName="puntuacion">
+                <mat-error *ngIf="regForm.get('email')?.hasError('required')">
+                    Debe indicar el correo electrónico
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div class="row">
+                <mat-form-field appearance="outline">
+                    <mat-label>Imágenes</mat-label>
+                    <input matInput placeholder="Sube imagen" formControlName="imagen">
+                    <mat-error *ngIf="regForm.get('imagen')?.hasError('required')">
+                        Debe indicar el nombre del lugar
+                    </mat-error>
+                </mat-form-field>
+        </div>
+    </mat-dialog-content>
+    <mat-dialog-actions class="action">
+        <button mat-button mat-dialog-close type="button" [mat-dialog-close]="false" color="accent">Cancelar</button>
+        <button mat-button mat-dialog-close cdkFocusInitial type="submit" color="primary">{{ data ? 'Guardar cambios' : 'Registrar' }}</button>
+    </mat-dialog-actions>
+</form>

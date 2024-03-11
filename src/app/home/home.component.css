@@ -1,0 +1,54 @@
+.body{
+  margin:5% 10%;
+}
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+section {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+mat-card{
+  width:30%;
+  margin-bottom: 50px;
+}
+
+.header_section{
+  display:flex;
+  flex-direction: row;
+  margin:10px 30px;
+  justify-content: space-between;
+}
+
+img {
+  height: 300px;
+  margin: 0 15px ;
+}
+
+.puntuacion{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+mat-icon{
+  color:rgb(238, 195, 2);
+}
+
+.grey{
+  color:grey;
+}
+
+.yellow{
+  color: yellow;
+}

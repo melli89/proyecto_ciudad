@@ -1,0 +1,203 @@
+{
+  "lugares": [
+    {
+      "id": "1",
+      "nombre": "Catedral de Santander",
+      "descripcion": "La catedral de la Asunción de Nuestra Señora se encuentra en la ciudad española de Santander. Su estructura es principalmente gótica, si bien ha sido posteriormente ampliada y reformada. Es un edificio religioso ubicado en un alto que conforma el último vestigio del antiguo cerro de Somorrostro, que fue elegido por los romanos como punto estratégico para el abastecimiento de la actual ciudad. Este lugar se caracterizó por ser un promontorio rodeado en gran parte por el mar, lo que permitió que la presencia humana en esta zona se mantuviera a lo largo de los siglos medievales.",
+      "puntuacion": 5,
+      "imagen": [
+        "../../assets/img/catedral1.jpg",
+        "../../assets/img/catedral2.jpg",
+        "../../assets/img/catedral3.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Palacio de la Magdalena",
+      "descripcion": "El Real Palacio de La Magdalena es un edificio situado en la península de La Magdalena, frente a la isla de Mouro, en la ciudad de Santander (Cantabria, España), y que fue construido entre 1909 y 1911, por suscripción popular, para albergar a la familia real española. Obra de los arquitectos Javier González Riancho y Gonzalo Bringas Vega, se enclava en el lugar donde estuvo el antiguo fortín de San Salvador de Hano, que protegía la entrada a la bahía. Costó 700 000 pesetas de 1912 y fue sufragado por el ayuntamiento y un gran número de familias lugareñas que desempeñaron un laborioso micromecenazgo, como las 100 000 pesetas de la Sociedad El Sardinero o las 1000 pesetas de la familia Botín. Los problemas financieros para poder costear la obra hicieron que la Comisión Ejecutiva llegase incluso a comprar lotería de Navidad para probar suerte, sin éxito. Fue amueblado en 1913, pasando de inmediato a ser residencia de verano del rey Alfonso XIII y su familia, quienes lo ocuparon regularmente hasta la proclamación de la Segunda República. En 1914 fueron proyectadas las caballerizas por González Riancho, las cuales emulan a un poblado inglés medieval con tejados puntiagudos de vertientes pronunciadas, entramados de madera vista, etc. En 1977 Juan de Borbón vendió el edificio a la ciudad por 150 millones de pesetas.1​ En 1982 fue declarado monumento histórico-artístico. Entre 1993 y 1995 fue rehabilitado por el Ayuntamiento de Santander y la Universidad Internacional Menéndez Pelayo, que hizo frente a los intereses del préstamo, según proyecto de Luis de la Fuente. En la actualidad es considerado uno de los edificios más emblemáticos de Santander y es uno de los principales enclaves turísticos de la ciudad.",
+      "puntuacion": 2,
+      "imagen": [
+        "../../assets/img/magdalena.jpg",
+        "../../assets/img/magdalena2.jpg",
+        "../../assets/img/magdalena.avif"
+      ]
+    },
+    {
+      "id": "3",
+      "nombre": "Centro Botín",
+      "descripcion": "El Centro Botín es un centro de arte ubicado en la ciudad de Santander (Cantabria, España) dependiente de la Fundación Botín.1​ Está situado en una zona estratégica frente a la bahía de Santander y próximo al casco antiguo que conserva la ciudad. Su objetivo es estimular el desarrollo económico, social y cultural de la sociedad. El edificio fue diseñado por los arquitectos Renzo Piano y Luis Vidal, comenzando el proyecto en el año 2012 y siendo finalmente inaugurado el 23 de junio de 2017.",
+      "puntuacion": "NV",
+      "imagen": [
+        "../../assets/img/centro_botin.jpg",
+        "../../assets/img/botin2.jpg",
+        "../../assets/img/botin3.jpg"
+      ]
+    },
+    {
+      "id": "4",
+      "nombre": "Museo Marítimo del Cantábrico",
+      "descripcion": "El Museo Marítimo del Cantábrico (MMC) es un museo y acuario dedicado a la difusión del patrimonio marítimo situado en la ciudad de Santander, en Cantabria (España), al borde de la bahía.2​ Sus fondos, uno de los más importantes y completos del país, permiten un acercamiento global a la biodiversidad marina y las diversas formas de relación con la misma de los hombres del mar Cantábrico a través de los siglos y múltiples puntos de vista. Sus colecciones empezaron a formarse en el siglo xviii, posteriormente enriquecidas por colectivos tan insignes como la Institución Libre de Enseñanza, la Escuela de Náutica de Santander, el Museo del Real Astillero de Guarnizo, el Instituto Español de Oceanografía y el Centro de Estudios Montañeses. Actualmente el museo tiene un programa expositivo articulado en cuatro grandes secciones: La vida en la mar. Pescadores y pesquerías. El Cantábrico y la mar en la historia. Vanguardia tecnológica frente a la mar.",
+      "puntuacion": "NV",
+      "imagen": [
+        "../../assets/img/museo.jpg",
+        "../../assets/img/museo2.jpg",
+        "../../assets/img/museo3.jpg"
+      ]
+    },
+    {
+      "id": "5",
+      "nombre": "Playa el sardinero",
+      "descripcion": "El Sardinero cuenta con dos playas con su mismo nombre. Una es la primera playa del Sardinero y la otra es la segunda playa del Sardinero. Son dos playas distintas aunque están seguidas en la línea de costa y cuando baja la marea se unen. La historia cuenta que en el pasado, una de las playas era utilizada por las clases medias y bajas y la otra era usada por las clases altas santanderinas, por lo que había una diferenciación social entre ambas.[cita requerida] Hoy en día ambas playas son muy familiares y muy concurridas durante el verano, ya que son las más extensas con las que cuenta la ciudad.",
+      "puntuacion": "NV",
+      "imagen": [
+        "../../assets/img/playa_sardinero.jpg",
+        "../../assets/img/playa2.jpg",
+        "../../assets/img/playa3.jpg"
+      ]
+    },
+    {
+      "id": "6",
+      "nombre": "Monumento a los Raqueros",
+      "descripcion": "El monumento a los Raqueros es un homenaje a los niños pobres que frecuentaban los muelles de Puerto Chico durante el siglo XIX y principios del XX. Estos muchachos, a quienes se les comenzó a nombrar con el apelativo “raquero”, tenían por costumbre lanzarse al mar en busca de las monedas que pasajeros y tripulantes les arrojaban desde sus barcos. La mayoría eran huérfanos, por lo que dedicaban sus días a buscarse la vida a través de pequeños hurtos y de las propinas que recibían por recoger los objetos tirados al agua.",
+      "puntuacion": "NV",
+      "imagen": [
+        "../../assets/img/raqueros.jpg",
+        "../../assets/img/raqueros2.jpg",
+        "../../assets/img/raqueros3.jpg"
+      ]
+    },
+    {
+      "id": "7",
+      "nombre": "Estadio de El Sardinero",
+      "descripcion": "El estadio pertenece al Ayuntamiento de Santander y en él juega el Real Racing Club como club emblemático de la ciudad, y donde también están sus oficinas y su tienda oficial. Está ubicado justo al lado del Palacio de Deportes de Santander, del Palacio de Exposiciones y Congresos y del Parque de la Vaguada de las Llamas, junto a las famosas playas de El Sardinero. El acceso al mismo es directo tanto desde el centro de la ciudad a través del Túnel de Puertochico como desde fuera de la misma por la avenida de La Constitución.El estadio tiene cinco tribunas (superiores) y cuatro preferencias (inferiores) y una zona detrás de las esquinas de preferencia sur para los socios de equipos rivales. Los asientos de las preferencias son blancos, mientras que los de la tribuna son azules, haciendo honor a la bandera de Santander. Actualmente dispone de 22 222 localidades, todas ellas de asiento.",
+      "puntuacion": "NV",
+      "imagen": [
+        "../../assets/img/estadio_sardinero.jpg",
+        "../../assets/img/estadio2.jpg",
+        "../../assets/img/estadio3.jpg"
+      ]
+    },
+    {
+      "id": "8",
+      "nombre": "Plaza de Pedro Velarde",
+      "descripcion": "La plaza de Pedro Velarde, más conocida como plaza Porticada, es una céntrica y concurrida plaza del centro de Santander (Cantabria, España) construida en estilo neoclásico herreriano tras el pavoroso incendio de 1941 que destruyó la mayor parte del casco histórico de la ciudad. Se levantó en plena posguerra, siendo inaugurada en 1950.",
+      "puntuacion": "NV",
+      "imagen": [
+        "../../assets/img/velarde.jpg",
+        "../../assets/img/velarde2.jpg",
+        "../../assets/img/velarde3.jpg"
+      ]
+    },
+    {
+      "id": "9",
+      "nombre": "Jardines de Piquío",
+      "descripcion": "Este extenso jardín mirador se ha ido configurando sobre la alternancia natural de las laderas y promontorios que bordean la bahía, integrando los aterrazamientos ajardinados con sus miradores, pérgolas, senderos, caminos, glorietas, etc, y los accesos a las playas. Este espacio se adapta al trazado geométrico y formal de los jardines con la topografía del terreno. Los jardines de El Sardinero y de Piquio, con su disposición de línea continua al borde del mar, van integrando armoniosamente su propia vegetación y la visión sucesiva de las playas y acantilados, creando una escala paisajística de alternancia dinámica entre líneas horizontales blancas (las playas) y verdes (los jardines y laderas), en un sugestivo contraste de entrantes y salientes. Estos famosos jardines son el final perfecto para un paseo por el Sardinero, o disfrutar de las vistas a las playas desde uno de sus bancos. Bien conservados y mantenidos, aparte de para pasear, se utilizan para pequeños eventos artísticos.",
+      "puntuacion": "NV",
+      "imagen": [
+        "../../assets/img/piquio.jpg",
+        "../../assets/img/piquio2.jpg",
+        "../../assets/img/piquio3.jpg"
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "email": "melli@hotmail.com",
+      "nombre": "Melli",
+      "apellidos": "March",
+      "telefono": "678058595",
+      "contrasena": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6Im1lbGxpQGhvdG1haWwuY29tIiwibm9tYnJlIjoiTWVsbGkiLCJhcGVsbGlkb3MiOiJNYXJjaCIsInRlbGVmb25vIjoiNjc4MDU4NTk1IiwiY29udHJhc2VuYSI6ImVzdGVzZXJhZWx0b2tlbiIsInRpcG9fdXN1YXJpbyI6ImFkbWluIiwiZmVjaGFfbmFjaW1pZW50byI6IjE5ODktMDItMDYiLCJnZW5lcm8iOiJtYXNjdWxpbm8iLCJvcmlnZW4iOiJBbmRhbHVjw61hIn0.6wVdufwAzXONSSwCTeDGtA5DLqPGoa2SU5VtBFba4-0",
+      "tipo_usuario": "admin",
+      "fecha_nacimiento": "1989-02-06",
+      "genero": "masculino",
+      "origen": "Andalucía"
+    },
+    {
+      "id": "3946",
+      "email": "fran@hotmail.com",
+      "nombre": "Fran",
+      "apellidos": "Marchena",
+      "telefono": "678020301",
+      "contrasena": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM5NDYiLCJlbWFpbCI6ImZyYW5AaG90bWFpbC5jb20iLCJub21icmUiOiJGcmFuIiwiYXBlbGxpZG9zIjoiTWFyY2hlbmEiLCJ0ZWxlZm9ubyI6IjY3ODAyMDMwMSIsImNvbnRyYXNlbmEiOiJlc3Rlc2VyYWVsdG9rZW4iLCJ0aXBvX3VzdWFyaW8iOiJ1c3VhcmlvIiwiZmVjaGFfbmFjaW1pZW50byI6IjE5OTQtMDMtMDQiLCJnZW5lcm8iOiJtYXNjdWxpbm8iLCJvcmlnZW4iOiJBbmRhbHVjw61hIn0.9eduhn0p4CiNcI6LVezagYiJpQe6OvWUnNIMxCK5Vr4",
+      "tipo_usuario": "usuario",
+      "fecha_nacimiento": "1994-03-04",
+      "genero": "masculino",
+      "origen": "Andalucía"
+    },
+    {
+      "id": "fed2",
+      "email": "nuria@hotmail.com",
+      "nombre": "Nuria",
+      "apellidos": "Castro",
+      "telefono": "678058595",
+      "contrasena": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZlZDIiLCJlbWFpbCI6Im51cmlhQGhvdG1haWwuY29tIiwibm9tYnJlIjoiTnVyaWEiLCJhcGVsbGlkb3MiOiJDYXN0cm8iLCJ0ZWxlZm9ubyI6IjY3ODA1ODU5NSIsImNvbnRyYXNlbmEiOiJlc3Rlc2VyYWVsdG9rZW4iLCJ0aXBvX3VzdWFyaW8iOiJ1c3VhcmlvIiwiZmVjaGFfbmFjaW1pZW50byI6IjE5OTktMTEtMTIiLCJnZW5lcm8iOiJmZW1lbmlubyIsIm9yaWdlbiI6IkFuZGFsdWPDrWEifQ.YDi3Cy-mLwtps4iakrH7i1gKiHxQJOZd38Ma2O8iO_g",
+      "tipo_usuario": "usuario",
+      "fecha_nacimiento": "1999-11-12",
+      "genero": "femenino",
+      "origen": "Andalucía"
+    },
+    {
+      "id": "1d02",
+      "email": "joe@gmail.com",
+      "nombre": "Jose ",
+      "apellidos": "Castell",
+      "telefono": "678598214",
+      "contrasena": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFkMDIiLCJlbWFpbCI6ImpvZUBnbWFpbC5jb20iLCJub21icmUiOiJKb3NlICIsImFwZWxsaWRvcyI6IkNhc3RlbGwiLCJ0ZWxlZm9ubyI6IjY3ODU5ODIxNCIsImNvbnRyYXNlbmEiOiJlc3Rlc2VyYWVsdG9rZW4iLCJ0aXBvX3VzdWFyaW8iOiJ1c3VhcmlvIiwiZmVjaGFfbmFjaW1pZW50byI6IjIwMjQtMDMtMjEiLCJnZW5lcm8iOiJtYXNjdWxpbm8iLCJvcmlnZW4iOiJBc3R1cmlhcyJ9.j4jwS4y-27k_Ta0IPsvI5Nt2guZ3_OYqalaImBvNO9k",
+      "tipo_usuario": "usuario",
+      "fecha_nacimiento": "2024-03-21",
+      "genero": "masculino",
+      "origen": "Asturias"
+    },
+    {
+      "id": "579c",
+      "email": "milka@hotmail.com",
+      "nombre": "Milka",
+      "apellidos": "Milkosa",
+      "telefono": "678589654",
+      "contrasena": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU3OWMiLCJlbWFpbCI6Im1pbGthQGhvdG1haWwuY29tIiwibm9tYnJlIjoiTWlsa2EiLCJhcGVsbGlkb3MiOiJNaWxrb3NhIiwidGVsZWZvbm8iOiI2Nzg1ODk2NTQiLCJjb250cmFzZW5hIjoiZXN0ZXNlcmFlbHRva2VuIiwidGlwb191c3VhcmlvIjoidXN1YXJpbyIsImZlY2hhX25hY2ltaWVudG8iOiIyMDI0LTAzLTA1IiwiZ2VuZXJvIjoib3Ryb3MiLCJvcmlnZW4iOiJCYWxlYXJlcyJ9.e0vSv7SLVuBnqiJ_WfgHk_wos3e_5it6urOKhnT8O-I",
+      "tipo_usuario": "usuario",
+      "fecha_nacimiento": "2024-03-05",
+      "genero": "otros",
+      "origen": "Baleares"
+    }
+  ],
+  "comentarios": [
+    {
+      "id": "1",
+      "id_usuario": "3946",
+      "id_sitio": "1",
+      "nombre": "Melli",
+      "apellidos": "March",
+      "puntuacion": 4,
+      "comentario": "Me sorprendió el lugar."
+    },
+    {
+      "id": "3333",
+      "id_usuario": "579c",
+      "id_sitio": "1",
+      "nombre": "Milka",
+      "apellidos": "Milkosa",
+      "puntuacion": 2,
+      "comentario": "Mucho turismo."
+    },
+    {
+      "id": "4599",
+      "id_usuario": "579c",
+      "id_sitio": "2",
+      "nombre": "Milka",
+      "apellidos": "Milkosa",
+      "puntuacion": 1,
+      "comentario": "Meh"
+    },
+    {
+      "id": "11db",
+      "id_usuario": "1d02",
+      "id_sitio": "2",
+      "nombre": "Jose ",
+      "apellidos": "Castell",
+      "puntuacion": 3,
+      "comentario": "Trabajadores simpáticos"
+    }
+  ]
+}

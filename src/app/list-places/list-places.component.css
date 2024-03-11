@@ -1,0 +1,19 @@
+#main-body{
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+  
+  #main-body mat-form-field{
+      width: 100%;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+  }
+  
+  .button-container mat-icon{
+    margin-right: -3px !important;
+  }
